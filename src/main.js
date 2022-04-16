@@ -29,7 +29,7 @@ Vue.use(VueRouter)
 // config page router
 const router = new VueRouter({
   mode: 'hash',
-  base: process.env.NODE_ENV === 'production' ? 'Real-Qingshui-Pass' : __dirname,
+  base: process.env.NODE_ENV === 'production' ? 'tmp' : __dirname,
   routes: [{
       path: '/login', component: LoginPage
     }, {
